@@ -17,7 +17,7 @@ public class LoginPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    private By username = By.name("username");
+    private By username = By.name("uddssername");
     private By password = By.name("password");
     private By loginBtn = By.xpath("//button[@type='submit']");
 
